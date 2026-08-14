@@ -1,0 +1,10 @@
+project_id = "box-selva-local"
+
+[functions.queue-expiration-reminders]
+verify_jwt = false
+
+[functions.queue-promotion]
+verify_jwt = false
+
+[functions.dispatch-whatsapp]
+verify_jwt = false
